@@ -2,3 +2,27 @@
     background-color: black;
     color: white;
 }
+
+.carousel img{
+    max-height: 65vh;
+}
+
+.top20{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.top20 .card{
+    background-color: black;
+    /* width: 200px; */
+}
+.card-img-top{
+    height: 400px;
+}
+.top20heading{
+    padding: 40px;
+    justify-items: center;
+    background-color: rgb(60, 39, 39);
+    font-size: 50px;
+    color: rgb(247, 139, 139);
+}
